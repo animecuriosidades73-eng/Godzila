@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "godzillamod",
+  "version": "${version}",
+  "name": "Godzilla Mod",
+  "description": "Un Godzilla gigante con barra de jefe y rayo atomico.",
+  "authors": ["Tu nombre"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.godzillamod.GodzillaMod"],
+    "client": ["com.godzillamod.client.GodzillaModClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
